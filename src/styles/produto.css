@@ -1,0 +1,28 @@
+.product-ul{
+    list-style: outside;
+}
+
+.produto-box{
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.card{
+    max-width: 200px;
+    padding: 0;
+    background-color: #ff7b00;
+    box-shadow: inset 0 15rem 65rem #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .product-mobile-reverse {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+  }
